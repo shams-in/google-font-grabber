@@ -1,0 +1,8 @@
+run the script is to copy a line like the above (or multiple, one per line) to the clipboard and run this in Terminal:
+
+pbpaste | font_grabber.rb | pbcopy
+
+That will put the result directly back onto your clipboard
+
+(or) pbpaste | font_grabber.rb > tempfonts.css
+
